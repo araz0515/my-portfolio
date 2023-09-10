@@ -1,0 +1,19 @@
+.AboutMe h1 {
+  color: var(--primary-color);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.AboutMe {
+  padding: 100px;
+  background: #032c4e;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+
+.AboutMe p {
+  color: white;
+}
+.AboutMe img {
+  max-width: 100%;
+}

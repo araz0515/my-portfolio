@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./Navbar";
 import Tools from "./Tools";
+import AboutMe from "./AboutMe";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         </h3>
       </header>
       <Tools />
+      <AboutMe />
       <footer>
         <ul>
           <li>My Projects</li>

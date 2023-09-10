@@ -3,6 +3,8 @@
   font-size: 40px;
   font-weight: bold;
   padding: 20px;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 div.Tools {
@@ -12,8 +14,37 @@ div.Tools {
 .Tools p {
   color: white;
   padding: 20px;
+  padding-top: 5px;
 }
 
-.Tools span {
+.Tools li {
   color: var(--primary-color);
+  line-height: 2;
+  text-align: center;
+}
+
+.Tools ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Tools {
+  padding: 50px;
+}
+
+.Tools div {
+  margin: 15px;
+}
+
+@media (max-width: 800px) {
+  .Tools ul {
+    display: block;
+  }
+
+  .Tools li {
+    margin-bottom: 20px;
+  }
 }
