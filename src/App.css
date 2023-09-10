@@ -1,0 +1,52 @@
+:root {
+  --primary-color: #fc5e80;
+}
+
+.App h1 {
+  font-size: 72px;
+  margin: 0;
+  color: white;
+  line-height: 1.5;
+}
+
+.App h3 {
+  color: white;
+  font-weight: 300;
+  line-height: 1;
+  font-size: 15px;
+}
+.App-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./hero-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 150px;
+}
+
+.App .about-me {
+  margin-top: 20px;
+  font-size: 15px;
+  color: var(--primary-color);
+  font-weight: 300;
+}
+
+.App .intro {
+  color: var(--primary-color);
+  margin: 0;
+}
+@media (max-width: 800px) {
+  .App-header {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 100px;
+    padding-left: 50px;
+  }
+  .App h1 {
+    font-size: 50px;
+  }
+
+  .App h3 {
+    font-size: 15px;
+  }
+}
