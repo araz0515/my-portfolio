@@ -7,10 +7,6 @@
   padding-top: 0;
 }
 
-div.Tools {
-  background: var(--tertiary-color);
-}
-
 .Tools p {
   color: white;
   padding: 20px;
@@ -33,6 +29,7 @@ div.Tools {
 
 .Tools {
   padding: 50px;
+  background: var(--tertiary-color);
 }
 
 .Tools div {
@@ -46,5 +43,9 @@ div.Tools {
 
   .Tools li {
     margin-bottom: 20px;
+  }
+
+  .Tools {
+    padding: 10px;
   }
 }
