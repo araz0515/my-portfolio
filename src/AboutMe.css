@@ -2,18 +2,29 @@
   color: var(--primary-color);
   font-size: 40px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .AboutMe {
   padding: 100px;
   background: #032c4e;
-  margin: 20px auto;
-  border-radius: 15px;
 }
 
 .AboutMe p {
   color: white;
+  line-height: 2;
 }
 .AboutMe img {
-  max-width: 100%;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 800px) {
+  .AboutMe h1 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
 }
