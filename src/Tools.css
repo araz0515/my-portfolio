@@ -47,5 +47,14 @@
 
   .Tools {
     padding: 10px;
+    padding-top: 20px;
+  }
+
+  .Tools img {
+    width: 70px;
+  }
+
+  .Tools h1 {
+    font-size: 30px;
   }
 }
