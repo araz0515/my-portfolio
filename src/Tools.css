@@ -1,0 +1,19 @@
+.Tools h1 {
+  color: var(--primary-color);
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+div.Tools {
+  background: var(--tertiary-color);
+}
+
+.Tools p {
+  color: white;
+  padding: 20px;
+}
+
+.Tools span {
+  color: var(--primary-color);
+}

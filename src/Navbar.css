@@ -1,0 +1,20 @@
+.Navbar a {
+  color: var(--primary-color);
+  font-size: 17px;
+}
+
+.Navbar a:hover {
+  color: var(--secondary-color);
+}
+
+.activated {
+  color: var(--secondary-color);
+}
+
+.Navbar {
+  text-align: right;
+}
+
+.custom-navbar {
+  background: var(--tertiary-color);
+}

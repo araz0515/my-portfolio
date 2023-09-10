@@ -1,9 +1,13 @@
 import React from "react";
+import "./Navbar.css";
 
 export default function Navbar() {
   return (
     <div className="Navbar">
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav
+        className="navbar navbar-expand-lg  custom-navbar"
+        data-bs-theme="dark"
+      >
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             Araz Kubtanjian
@@ -21,17 +25,17 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link " aria-current="page" href="#">
                 Home
               </a>
               <a className="nav-link" href="#">
-                Features
+                My Projects
               </a>
               <a className="nav-link" href="#">
-                Pricing
+                About Me
               </a>
-              <a className="nav-link disabled" aria-disabled="true">
-                Disabled
+              <a className="nav-link" href="#">
+                My Resume
               </a>
             </div>
           </div>
