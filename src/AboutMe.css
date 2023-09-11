@@ -24,6 +24,7 @@
 
 .AboutMe a {
   color: var(--primary-color);
+  transition: all 200ms ease-in-out;
 }
 .AboutMe a:hover {
   color: var(--secondary-color);

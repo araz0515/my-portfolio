@@ -43,7 +43,7 @@ export default function Skills() {
               <img
                 src={ResponsiveIcon}
                 alt="responsive-icon"
-                className="img-fluid"
+                className="img-fluid responsive-icon"
               />
             </div>
           </div>

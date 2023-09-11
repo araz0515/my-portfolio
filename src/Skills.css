@@ -24,6 +24,9 @@
   line-height: 2;
   list-style: none;
 }
+.Skills img.responsive-icon {
+  filter: invert(100%);
+}
 
 @media (max-width: 800px) {
   .Skills h1 {

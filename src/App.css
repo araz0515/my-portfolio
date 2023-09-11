@@ -54,6 +54,7 @@
 .App footer a {
   color: white;
   text-decoration: none;
+  transition: all 200ms ease-in-out;
 }
 .App footer a:hover {
   color: var(--primary-color);
@@ -79,6 +80,9 @@
   color: var(--secondary-color);
 }
 
+.App .socials li {
+  transition: all 200ms ease-in-out;
+}
 .App .socials li:hover {
   transform: scale(1.5);
 }

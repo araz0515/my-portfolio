@@ -85,7 +85,7 @@ function App() {
             <p>
               This project was coded by Araz Kubtanjian and is{" "}
               <a
-                href="https://github.com/araz0515"
+                href="https://github.com/araz0515/my-portfolio"
                 target="_blank"
                 rel="noreferrer"
               >
