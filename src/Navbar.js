@@ -28,10 +28,10 @@ export default function Navbar() {
               <a className="nav-link " aria-current="page" href="#topHeader">
                 Home
               </a>
-              <a className="nav-link" href="/Projects.js #projectsLink">
+              <a className="nav-link" href="#projectsLink">
                 My Projects
               </a>
-              <a className="nav-link" href="/AboutMe #aboutMe">
+              <a className="nav-link" href="#aboutMe">
                 About Me
               </a>
               <a

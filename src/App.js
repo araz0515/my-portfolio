@@ -32,10 +32,10 @@ function App() {
           </li>
           <li>
             {" "}
-            <a href="/Projects.js #projectsLink">My Projects</a>
+            <a href="#projectsLink">My Projects</a>
           </li>
           <li>
-            <a href="/AboutMe.js#aboutMe">About me</a>
+            <a href="#aboutMe">About me</a>
           </li>
           <li>
             <a
