@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 export default function Navbar() {
   return (
@@ -29,10 +28,10 @@ export default function Navbar() {
               <a className="nav-link " aria-current="page" href="#topHeader">
                 Home
               </a>
-              <a className="nav-link" href="App.js #projectsLink">
+              <a className="nav-link" href="/Projects.js #projectsLink">
                 My Projects
               </a>
-              <a className="nav-link" href="AboutMe #aboutMe">
+              <a className="nav-link" href="/AboutMe #aboutMe">
                 About Me
               </a>
               <a
