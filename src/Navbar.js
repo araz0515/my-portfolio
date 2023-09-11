@@ -37,6 +37,8 @@ export default function Navbar() {
               <a
                 className="nav-link"
                 href="https://drive.google.com/file/d/1ZPI20fPr7MiKdBpo8FzqN6Y-AjVFh7OO/view?usp=drive_link"
+                target="_blank"
+                rel="noreferrer"
               >
                 My Resume
               </a>
