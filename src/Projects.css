@@ -51,4 +51,7 @@
   .Projects {
     padding: 20px;
   }
+  .Projects button {
+    color: black;
+  }
 }

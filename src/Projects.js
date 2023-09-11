@@ -133,7 +133,7 @@ export default function Projects() {
                 few cities. This project uses moment.js.
               </p>
               <button>HTML</button>
-              <button>moment.js</button> <br />
+              <button>Moment.js</button> <br />
               <a
                 href="https://world-clock-project-3.netlify.app"
                 className="btn btn-primary"

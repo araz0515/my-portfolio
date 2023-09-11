@@ -69,4 +69,8 @@
   .App h3 {
     font-size: 15px;
   }
+
+  .App footer {
+    padding: 20px;
+  }
 }
