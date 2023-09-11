@@ -107,10 +107,15 @@
     padding-right: 100px;
     padding-left: 50px;
   }
+
   .App h1 {
     font-size: 50px;
+    line-height: 1;
+    padding-bottom: 20px;
   }
-
+  .App .intro {
+    padding-bottom: 10px;
+  }
   .App h3 {
     font-size: 15px;
   }
