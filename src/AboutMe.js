@@ -18,7 +18,7 @@ export default function AboutMe() {
             background, where I've studied in the domains of science as well as
             real estate. However I was never committed to any career path until
             now. Software development has captured my heart and I'm now a
-            devoted aspiring front-end developer hoping to build a career and
+            devoted aspiring React developer hoping to build a career and
             improve my coding skills along the way.{" "}
           </p>
           <div className="d-flex justify-content-around m-5">

@@ -33,4 +33,9 @@
   .Skills img {
     width: 70px;
   }
+
+  .Skills {
+    padding: 10px;
+    padding-top: 20px;
+  }
 }
