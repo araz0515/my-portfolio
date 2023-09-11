@@ -27,6 +27,7 @@
   display: flex;
   justify-content: space-around;
   list-style: none;
+  padding-left: 0;
 }
 
 .Projects button {
@@ -44,5 +45,10 @@
 @media (max-width: 800px) {
   .Projects ul {
     display: block;
+    padding-left: 0;
+  }
+
+  .Projects {
+    padding: 20px;
   }
 }
