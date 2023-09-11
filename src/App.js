@@ -4,6 +4,9 @@ import Tools from "./Tools";
 import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 
 function App() {
   return (
@@ -24,9 +27,21 @@ function App() {
       <Projects />
       <footer>
         <ul>
+          <li>Home</li>
           <li>My Projects</li>
           <li>About me</li>
           <li>My Resume</li>
+        </ul>
+        <ul className="d-flex justify-content-center socials">
+          <li>
+            <FaGithub />
+          </li>
+          <li>
+            <FaLinkedin />
+          </li>
+          <li>
+            <FaEnvelope />
+          </li>
         </ul>
       </footer>
     </div>
