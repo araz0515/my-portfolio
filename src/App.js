@@ -32,7 +32,7 @@ function App() {
           <li>About me</li>
           <li>My Resume</li>
         </ul>
-        <ul className="d-flex justify-content-center socials">
+        <ul className="d-flex justify-content-center">
           <li>
             <FaGithub />
           </li>
