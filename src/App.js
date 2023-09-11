@@ -37,7 +37,15 @@ function App() {
           <li>
             <a href="AboutMe.js #aboutMe">About me</a>
           </li>
-          <li>My Resume</li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1ZPI20fPr7MiKdBpo8FzqN6Y-AjVFh7OO/view?usp=drive_link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              My Resume
+            </a>
+          </li>
           <li>
             <a
               href="https://www.shecodes.io/graduates/90889-araz-kubtanjian"

@@ -9,7 +9,7 @@ export default function Navbar() {
         data-bs-theme="dark"
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="#topHeader">
             Araz Kubtanjian
           </a>
           <button
@@ -25,7 +25,7 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link " aria-current="page" href="/">
+              <a className="nav-link " aria-current="page" href="#topHeader">
                 Home
               </a>
               <a className="nav-link" href="App.js #projectsLink">
@@ -34,7 +34,10 @@ export default function Navbar() {
               <a className="nav-link" href="AboutMe #aboutMe">
                 About Me
               </a>
-              <a className="nav-link" href="/">
+              <a
+                className="nav-link"
+                href="https://drive.google.com/file/d/1ZPI20fPr7MiKdBpo8FzqN6Y-AjVFh7OO/view?usp=drive_link"
+              >
                 My Resume
               </a>
             </div>
