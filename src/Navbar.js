@@ -5,12 +5,12 @@ export default function Navbar() {
   return (
     <div className="Navbar">
       <nav
-        className="navbar navbar-expand-lg  custom-navbar"
+        className="navbar navbar-expand-lg custom-navbar"
         data-bs-theme="dark"
       >
         <div className="container-fluid">
           <a className="navbar-brand" href="#topHeader">
-            Araz Kubtanjian
+            ArazKubtanjian
           </a>
           <button
             className="navbar-toggler"

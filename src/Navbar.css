@@ -18,3 +18,7 @@
 .custom-navbar {
   background: var(--tertiary-color);
 }
+
+.navbar-brand {
+  font-weight: bolder;
+}
