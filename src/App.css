@@ -46,14 +46,55 @@
 
 .App footer ul {
   list-style: none;
-  color: var(--primary-color);
   padding: 100px;
+  padding-bottom: 0;
   line-height: 3;
+  margin: 0;
+}
+.App footer a {
+  color: white;
+  text-decoration: none;
+}
+.App footer a:hover {
+  color: var(--primary-color);
 }
 
+.App ul.socials {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  color: var(--primary-color);
+}
 .socials li {
   margin-top: 0;
+  margin: 20px;
   padding: 0;
+}
+
+.App .socials a {
+  color: var(--primary-color);
+}
+
+.App .socials a:hover {
+  color: var(--secondary-color);
+}
+
+.App .socials li:hover {
+  transform: scale(1.5);
+}
+.App footer p {
+  color: white;
+  margin-top: 30px;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.App footer p a {
+  color: var(--primary-color);
+}
+
+.App footer p a:hover {
+  color: var(--secondary-color);
 }
 @media (max-width: 800px) {
   .App-header {
@@ -70,7 +111,14 @@
     font-size: 15px;
   }
 
-  .App footer {
-    padding: 10px;
+  .App footer ul {
+    padding: 30px;
+    padding-bottom: 0;
+  }
+
+  .App footer p {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
   }
 }

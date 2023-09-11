@@ -8,7 +8,7 @@ import WeatherProject from "./weather-project.png";
 
 export default function Projects() {
   return (
-    <div className="Projects">
+    <div className="Projects" id="projectsLink">
       <h1>My Projects</h1>
       <ul>
         <li>
@@ -54,7 +54,7 @@ export default function Projects() {
               {" "}
               <img
                 src={WeatherProject}
-                class="card-img-top"
+                className="card-img-top"
                 alt="weather forecast app"
               />
             </a>
@@ -87,7 +87,7 @@ export default function Projects() {
             >
               <img
                 src={TravelProject}
-                class="card-img-top"
+                className="card-img-top"
                 alt="travel project"
               />
             </a>

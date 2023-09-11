@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function AboutMe() {
   return (
-    <div className="AboutMe">
+    <div className="AboutMe" id="aboutMe">
       <div className="row">
         <div className="col-md-6">
           <img src={myPhoto} alt="this is me" className="img-fluid" />
