@@ -16,7 +16,7 @@ export default function AboutMe() {
             My name is Araz Kubtanjian. I'm a Junior Front-end Developer who's
             passionate about technology. I have an adverse educational
             background, where I've studied in the domains of science as well as
-            real estate. However I was never committed to any career path until
+            real estate. However, I was never committed to any career path until
             now. Software development has captured my heart and I'm now a
             devoted aspiring React developer hoping to build a career and
             improve my coding skills along the way.{" "}

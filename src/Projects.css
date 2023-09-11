@@ -1,0 +1,47 @@
+.Projects {
+  background: #032c4e;
+  padding: 50px;
+  text-align: center;
+}
+
+.Projects h1 {
+  font-size: 40px;
+  color: var(--primary-color);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Projects .card {
+  margin: 20px;
+  background: rgb(217, 217, 221);
+}
+.Projects .btn-primary {
+  background: #043963;
+}
+
+.Projects .btn-primary:hover {
+  background: var(--tertiary-color);
+}
+
+.Projects ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Projects button {
+  border-radius: 15px;
+  margin: 5px;
+  margin-bottom: 15px;
+  border: 1px solid grey;
+  transition: all 200ms ease-in-out;
+}
+
+.Projects button:hover {
+  background: grey;
+}
+
+@media (max-width: 800px) {
+  .Projects ul {
+    display: block;
+  }
+}

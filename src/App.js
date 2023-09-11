@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Tools from "./Tools";
 import AboutMe from "./AboutMe";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Tools />
       <AboutMe />
       <Skills />
+      <Projects />
       <footer>
         <ul>
           <li>My Projects</li>
