@@ -162,7 +162,7 @@ export default function Projects() {
             <div className="card-body">
               <h5 className="card-title">Photographer Portfolio Project</h5>
               <p className="card-text">
-                A resonsive website that showcases the portfolio of a
+                A responsive website that showcases the portfolio of a
                 photographer and includes multiple pages.
               </p>
               <button>HTML</button>
