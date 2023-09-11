@@ -1,0 +1,36 @@
+.Skills h1 {
+  color: var(--primary-color);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.Skills {
+  padding: 50px;
+  background: var(--tertiary-color);
+}
+
+.Skills p {
+  color: white;
+  margin-top: 15px;
+}
+
+.Skills img {
+  width: 100px;
+  margin: 20px;
+}
+
+.Skills li {
+  color: white;
+  line-height: 2;
+  list-style: none;
+}
+
+@media (max-width: 800px) {
+  .Skills h1 {
+    font-size: 30px;
+  }
+
+  .Skills img {
+    width: 70px;
+  }
+}
