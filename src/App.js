@@ -39,7 +39,7 @@ function App() {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1ZPI20fPr7MiKdBpo8FzqN6Y-AjVFh7OO/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1L-ftJ3TSvR5YEIUHYkkMl1q8qmirGSff/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
