@@ -36,7 +36,7 @@ export default function Navbar() {
               </a>
               <a
                 className="nav-link"
-                href="https://drive.google.com/file/d/1L-ftJ3TSvR5YEIUHYkkMl1q8qmirGSff/view?usp=sharing"
+                href="https://drive.google.com/file/d/1yHK48py_U8LLeP8JwIsaHzWgTg6TIC7S/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer"
               >
